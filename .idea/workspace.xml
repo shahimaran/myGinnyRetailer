@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dcd5cd6-ecf6-45b1-9ea1-e31ed63ac23e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/CreateInventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/MgiLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/OrdersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/PointOfSalePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/PurchaseOrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/PurchasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/RetailerHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageClasses/SalesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCases/RetailerLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baseClasses/BaseTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baseClasses/PageBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinny/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/base/BaseUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/test/LoginTest/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/test/LoginTest/MgiDevLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/test/LoginTest/UatInventoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/ConstantValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/ReadExcelDataFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/ReadTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/Tempreaddata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myGinnyRetailer/utils/TestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testData/Feature_File.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testData/Login_Id_dev.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Fri_Jun_02_00_32_01_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Fri_Jun_02_00_35_06_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Fri_Jun_09_00_51_48_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_13_23_48_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_13_25_48_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_13_44_50_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_13_46_15_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_14_33_31_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_16_38_18_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_16_40_22_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_16_42_02_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_16_45_26_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_17_35_59_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_17_41_06_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_17_58_58_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_18_01_47_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_05_18_08_21_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_01_19_47_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_01_21_26_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_01_28_44_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_01_32_27_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_12_04_10_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_14_39_41_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_14_42_35_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_14_47_41_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_14_49_13_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_15_15_45_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_16_38_12_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Mon_Jun_12_18_18_59_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sat_Jun_03_18_55_00_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sat_Jun_03_19_19_25_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sat_Jun_03_19_59_40_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_16_07_55_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_16_12_00_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_16_14_05_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_17_30_59_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_17_32_42_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_17_54_35_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_17_56_33_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_06_19_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_07_28_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_10_06_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_11_20_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_14_53_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_21_53_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_25_49_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_50_04_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_18_55_05_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_07_17_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_08_28_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_10_31_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_13_22_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_17_50_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_18_34_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_20_10_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_19_25_40_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_20_02_31_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_20_15_07_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_20_18_20_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_21_39_41_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_21_44_24_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_21_48_18_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_23_01_35_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_23_47_17_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Sun_Jun_11_23_53_10_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Thu_Jun_08_15_21_11_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Thu_Jun_08_17_16_47_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Thu_Jun_08_17_19_00_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Thu_Jun_08_17_22_27_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Tue_Jun_13_12_48_40_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Tue_Jun_13_13_41_56_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScreenShots/Wed_Jun_07_16_52_25_IST_2023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestData/Feature_File.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestData/Login_Id_dev.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestData/MGI_Dev_Login.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/ObjectRepository/projectConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/driver/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/driver/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/driver/sha512_sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_00_00_48_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_00_02_19_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_00_30_37_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_10_02_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_12_03_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_19_15_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_20_55_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_22_06_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_25_16_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_27_04_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_31_55_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_34_14_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_36_15_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_37_44_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_40_01_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_01_41_57_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_11_38_03_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_12_02_42_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_28_10_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_31_23_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_32_55_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_39_10_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_42_03_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_47_10_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_48_40_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_50_23_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_54_13_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_14_56_26_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_15_01_03_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_15_14_11_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_16_26_23_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_16_28_12_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_16_37_36_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_16_41_55_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_16_44_57_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_16_48_10_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_27_45_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_36_51_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_40_45_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_43_45_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_50_28_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_56_35_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_17_57_16_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_18_01_02_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_18_05_14_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_18_10_12_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_18_13_47_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_18_16_19_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Mon_Jun_12_18_17_32_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_16_55_13_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_22_32_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_30_24_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_32_10_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_35_59_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_38_44_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_54_02_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_17_56_01_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_05_48_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_06_57_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_09_53_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_10_49_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_14_23_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_21_16_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_25_36_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_26_34_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_48_33_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_18_53_32_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_06_55_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_08_02_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_10_06_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_12_58_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_17_25_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_18_10_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_19_43_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_25_11_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_42_45_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_48_17_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_52_35_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_55_03_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_19_56_14_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_02_01_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_14_41_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_17_54_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_20_43_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_23_00_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_25_22_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_27_24_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_41_48_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_57_15_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_20_59_50_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_06_44_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_08_30_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_10_20_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_13_51_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_30_44_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_32_57_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_39_08_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_43_54_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_21_47_49_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_32_07_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_34_27_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_38_09_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_39_35_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_42_17_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_44_41_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_46_34_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_22_53_25_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_01_25_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_01_55_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_03_40_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_07_19_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_16_03_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_24_45_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_26_19_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_31_36_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_46_48_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Sun_Jun_11_23_52_39_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_33_22_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_34_51_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_38_22_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_40_29_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_44_30_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_46_35_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_12_47_09_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_13_39_11_IST_2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test-output/Tue_Jun_13_13_40_26_IST_2023.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QNpIf0oGOEoQ0fi1yKrXxufdvi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/myGinnyRetailer/src/test/TestData"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\myGinnyRetailer\src\test\TestData" />
+      <recent name="C:\Users\user\IdeaProjects\myGinnyRetailer\src\main\java\testData" />
+      <recent name="C:\Users\user\IdeaProjects\myGinnyRetailer\src\test\resources" />
+      <recent name="C:\Users\user\IdeaProjects\myGinnyRetailer\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\myGinnyRetailer\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myGinnyRetailer.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.RetailerLoginTest.doLogInventoryForNonExistingProduct">
+    <configuration name="LoginTest" type="TestNG" nameIsGenerated="true">
+      <module name="myGinnyRetailer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myGinnyRetailer.test.LoginTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myGinnyRetailer.test.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myGinnyRetailer.test.LoginTest.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myGinnyRetailer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.RetailerLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailerLoginTest.doInventoryOfAmul" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myGinnyRetailer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.RetailerLoginTest" />
+      <option name="METHOD_NAME" value="doInventoryOfAmul" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailerLoginTest.doLogInventoryForNonExistingProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myGinnyRetailer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.RetailerLoginTest" />
+      <option name="METHOD_NAME" value="doLogInventoryForNonExistingProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailerLoginTest.doLogInventoryN2S" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myGinnyRetailer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.RetailerLoginTest" />
+      <option name="METHOD_NAME" value="doLogInventoryN2S" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailerLoginTest.enterProductDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myGinnyRetailer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.RetailerLoginTest" />
+      <option name="METHOD_NAME" value="enterProductDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RetailerLoginTest.doLogInventoryForNonExistingProduct" />
+        <item itemvalue="TestNG.RetailerLoginTest.doLogInventoryN2S" />
+        <item itemvalue="TestNG.RetailerLoginTest.doInventoryOfAmul" />
+        <item itemvalue="TestNG.RetailerLoginTest.enterProductDetails" />
+        <item itemvalue="TestNG.RetailerLoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dcd5cd6-ecf6-45b1-9ea1-e31ed63ac23e" name="Changes" comment="" />
+      <created>1685203819894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685203819894</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
